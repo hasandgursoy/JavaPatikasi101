@@ -12,9 +12,9 @@ public class LeapYear {
         if ((year % 4 == 0)&& !(year %100 == 0)) {
             System.out.println("Sayi Artıktır");
         }else if (year % 400 == 0){
-            System.out.println("Sayi Artıktır.");
+            System.out.println("Sayi Artıktır");
         }else {
-            System.out.println("Sayi Artık Değildir.");
+            System.out.println("Sayi Artık Değildir");
         }
 
     }
