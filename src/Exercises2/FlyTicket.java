@@ -6,7 +6,7 @@ public class FlyTicket {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int distance, age, flightType;
-        double perKm = 10,ageDiscount = 0,totalPure =0, total,flightTypeDiscount = 0;
+        double perKm = 10,ageDiscount = 0,totalPure, total,flightTypeDiscount = 0;
 
         System.out.print("Yaşınızı Giriniz :");
         age = scn.nextInt();
