@@ -18,7 +18,5 @@ public class BodyMassIndex {
         bodyMassIndex = weight / (height * height);
         System.out.println("Vücut Kitle İndeksiniz :"+bodyMassIndex);
 
-
-
     }
 }
