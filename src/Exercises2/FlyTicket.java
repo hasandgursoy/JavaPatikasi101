@@ -17,7 +17,7 @@ public class FlyTicket {
 
         if (age <= 12){
             ageDiscount = 0.50;
-        }else  if (age >12 && age < 24){
+        }else  if (age > 13 &&age < 24){
             ageDiscount = 0.10;
         }else if (age > 65) {
             ageDiscount = 0.30;
