@@ -1,3 +1,5 @@
+package Conditions;
+
 public class IFandELSE {
     public static void main(String[] args) {
 
