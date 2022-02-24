@@ -13,7 +13,7 @@ public class Main {
         auidi.decreaseSpeed(10);
         System.out.println(auidi.model + " Hızı :"+auidi.speed);
         System.out.println(auidi.model);
-
+        auidi.printInfo();
 
 
         Car bmw = new Car();
@@ -23,15 +23,18 @@ public class Main {
         bmw.decreaseSpeed(20);
         bmw.showSpeed();
         System.out.println(auidi.model + " Hızı :"+bmw.speed);
-
+        bmw.printInfo();
 
         Car mercedes = new Car();
         mercedes.model = "Mercedes";
         mercedes.speed = 30;
-
         mercedes.showSpeed();
         System.out.println(mercedes.model + " Hızı : "+mercedes.speed);
+        mercedes.printInfo();
 
+        ConstructorCar sahin = new ConstructorCar("133","slx","mavi");
+        System.out.println("Model :"+sahin.model+"\nType :"+sahin.type+"\nRengi :"+sahin.color);
+        sahin.printInfo();
 
 
 

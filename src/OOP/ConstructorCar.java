@@ -1,7 +1,6 @@
 package OOP;
 
-public class Car {
-
+public class ConstructorCar {
     // Nitelikler
     String type;
     String model;
@@ -9,9 +8,16 @@ public class Car {
     int speed;
     int speedLimit = 180;
 
+    ConstructorCar(String model, String type, String color) {
+        this.type = type;
+        this.model = model;
+        this.color = color;
+        System.out.println("Nesne Oluşturuldu");
+    }
+
 
     void increaseSpeed(int increment) {
-        if (speed + increment < speedLimit) {
+        if (this.speed + increment < this.speedLimit) {
             this.speed += increment;
 
         }
@@ -19,7 +25,7 @@ public class Car {
     }
 
     void decreaseSpeed(int decrease) {
-        if (speed > 0) {
+        if (this.speed > 0) {
             this.speed -= decrease;
         }
 
@@ -32,6 +38,6 @@ public class Car {
     void printInfo() {
         System.out.println("Model : \t" + this.model);
         System.out.println("Color : \t" + this.color);
-        System.out.println("Type : \t" + this.type);
+        System.out.println("Type  : \t" + this.type);
     }
 }
