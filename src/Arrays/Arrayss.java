@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Arrays {
+public class Arrayss {
 
     static int[] reverse(int[] list){
         int[] reverse = new int[list.length];
